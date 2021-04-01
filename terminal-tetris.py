@@ -180,7 +180,7 @@ def game_is_over(board, piece, location):
 def check_and_delete_full_layers(board):
     x = 0
     full_layer = [2]*BOARD_WITH_FRAME
-    for i in range(BOARD_WITH_FRAME-1):
+    for i in range(BOARD):
         if board[i] == full_layer:
             board.pop(i)
             x += 1
