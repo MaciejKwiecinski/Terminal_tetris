@@ -43,9 +43,9 @@ def show_board(board, error_message):
     for i in range(BOARD_WITH_FRAME):
         for j in range(BOARD_WITH_FRAME):
             if board[i][j] == 1:
-                print('1', end='')
+                print('*', end='')
             elif board[i][j] == 2:
-                print('2', end='')
+                print('*', end='')
             else:
                 print(' ', end='')
         print("")
